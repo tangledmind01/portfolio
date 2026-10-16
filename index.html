@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thrishikha Jayasankar · Data Scientist</title>
+<meta name="description" content="Portfolio of Thrishikha Jayasankar — Data Scientist, MSc Data Science (University of Bristol), ex-Citi Bank via Virtusa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="frame">
+
+  <!-- NAV -->
+  <header class="nav">
+    <a href="#top" class="brand">&lt;/&gt; THRISHIKHA J</a>
+    <nav class="links" id="links">
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#certs">Certifications</a>
+      <a href="#education">Education</a>
+    </nav>
+    <a href="#contact" class="nav-cta">Contact me <span>→</span></a>
+    <button class="menu-btn" aria-label="Toggle menu" onclick="document.getElementById('links').classList.toggle('open')">☰</button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-left grid-bg">
+      <span class="tag">HEY, I'M THRISHIKHA 👋</span>
+      <h1>DATA<br>SCIENTIST</h1>
+      <p class="rotator">&gt; currently into: <span id="rot">time-series forecasting</span><span class="caret" aria-hidden="true"></span></p>
+      <p class="lead">2+ years delivering analytics in global financial services. I turn production data, market signals and human language into models and dashboards people can actually act on.</p>
+      <div class="btn-row">
+        <a href="#projects" class="btn btn-lime">View my work ↗</a>
+        <a href="mailto:thrishikhajayasankar@gmail.com" class="btn">Email me ✉</a>
+      </div>
+      <p class="mini-label">CONNECT WITH ME</p>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/thrishikha-jayasankar" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C21.6 8.65 22 11.2 22 14.5V21h-4v-5.8c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1V21h-4V9Z"/></svg></a>
+        <a href="https://github.com/tangledmind01" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.42c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg></a>
+        <a href="mailto:thrishikhajayasankar@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24"><path d="M2 5h20v14H2V5Zm2 2v.4l8 5.2 8-5.2V7H4Zm16 2.8-8 5.2-8-5.2V17h16V9.8Z"/></svg></a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="photo-card">
+        <!-- Drop a photo at assets/photo.jpg and it will replace the monogram automatically -->
+        <img src="assets/photo.jpg" alt="Thrishikha Jayasankar" onerror="this.remove()">
+        <div class="monogram">TJ</div>
+      </div>
+      <pre class="code-card"><span class="c-mut">&gt;</span> <span class="c-kw">const</span> scientist = {
+  <span class="c-key">based:</span> <span class="c-str">'Bristol, UK'</span>,
+  <span class="c-key">stack:</span> <span class="c-str">'Python · R · AWS'</span>,
+  <span class="c-key">models:</span> <span class="c-str">'LSTM · XGBoost'</span>,
+  <span class="c-key">passion:</span> <span class="c-str">'Signal over noise'</span>
+}</pre>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="skills-label"><h2>SKILLS</h2><span class="arrow">→</span></div>
+    <ul class="skill-list">
+      <li><button class="skill" data-go="0"><span class="ico">Py</span>Python</button></li>
+      <li><button class="skill" data-go="3"><span class="ico">R</span>R</button></li>
+      <li><button class="skill" data-go="2"><span class="ico">ML</span>Machine Learning</button></li>
+      <li><button class="skill" data-go="0"><span class="ico">∿</span>Time Series</button></li>
+      <li><button class="skill" data-go="4"><span class="ico">!</span>Anomaly Detection</button></li>
+      <li><button class="skill" data-go="0"><span class="ico">λ</span>LLMs &amp; NLP</button></li>
+      <li><button class="skill" data-go="#experience"><span class="ico">☁</span>AWS</button></li>
+      <li><button class="skill" data-go="1"><span class="ico">▦</span>Tableau</button></li>
+      <li><button class="skill" data-go="3"><span class="ico">σ</span>Statistics</button></li>
+    </ul>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>OPEN TO WORK ✺ DATA SCIENCE ✺ MACHINE LEARNING ✺ TIME SERIES ✺ ANOMALY DETECTION ✺ LLMs ✺ BRISTOL, UK ✺ </span><span>OPEN TO WORK ✺ DATA SCIENCE ✺ MACHINE LEARNING ✺ TIME SERIES ✺ ANOMALY DETECTION ✺ LLMs ✺ BRISTOL, UK ✺ </span>
+    </div>
+  </div>
+
+  <!-- PROJECTS + CERTS -->
+  <section class="mid">
+    <div class="projects" id="projects">
+      <div class="sec-head">
+        <h2>FEATURED PROJECTS</h2>
+        <div class="car-ctrl">
+          <button class="sq" id="prev" aria-label="Previous project">‹</button>
+          <button class="sq" id="next" aria-label="Next project">›</button>
+        </div>
+      </div>
+      <a class="btn btn-sm" href="https://github.com/tangledmind01" target="_blank" rel="noopener">View GitHub →</a>
+      <span class="hint">psst — click a skill above to jump to where she used it</span>
+
+      <div class="carousel" id="carousel">
+        <!-- slides are injected from PROJECTS in script.js -->
+      </div>
+      <div class="dots" id="dots"></div>
+    </div>
+
+    <aside class="certs" id="certs">
+      <h2>CERTIFICATIONS</h2>
+      <div class="cert">
+        <span class="cert-issuer">LinkedIn · Oct 2025</span>
+        <strong>Learning Data Analytics 1: Foundations</strong>
+      </div>
+      <div class="cert">
+        <span class="cert-issuer">Generative AI</span>
+        <strong>Master of Gemini</strong>
+      </div>
+      <div class="cert">
+        <span class="cert-issuer">AI-driven development</span>
+        <strong>Master of Lovable</strong>
+      </div>
+      <div class="cert">
+        <span class="cert-issuer">Prompt engineering</span>
+        <strong>Master of Claude</strong>
+      </div>
+      <div class="cert">
+        <span class="cert-issuer">Generative imagery</span>
+        <strong>Master of Midjourney</strong>
+      </div>
+      <a class="btn btn-white" href="https://www.linkedin.com/in/thrishikha-jayasankar" target="_blank" rel="noopener">View all on LinkedIn →</a>
+    </aside>
+  </section>
+
+  <!-- EXPERIENCE + CTA -->
+  <section class="bottom">
+    <div class="exp-label" id="experience"><h2>EXPERIENCE</h2><span class="arrow">→</span></div>
+    <div class="timeline">
+      <div class="job">
+        <div class="job-head"><h3>Associate Engineer – Data Scientist <span class="dot">•</span> Virtusa <small>(client: Citi Bank)</small></h3><span class="when">2022 – 2024</span></div>
+        <p>Turned complex production and operational data into insights that improved system reliability and performance for a global bank. Designed monitoring frameworks, intelligent dashboards and cloud-based pipelines, applying time-series forecasting and anomaly detection to improve SLA adherence and reduce incident volumes.</p>
+      </div>
+      <div class="job">
+        <div class="job-head"><h3>Data Scientist Intern <span class="dot">•</span> Virtusa</h3><span class="when">Jan – Jun 2022</span></div>
+        <p>Supported IT infrastructure and technical-support analytics in Chennai, building the foundations that led to a full-time data science role.</p>
+      </div>
+      <div class="job">
+        <div class="job-head"><h3>Front Desk Staff <span class="dot">•</span> IHG Hotels &amp; Resorts</h3><span class="when">2025 – Present</span></div>
+        <p>Night audit, daily financial reconciliation and cash/banking processes in Bristol. Produces daily operational and financial reports that support audit accuracy and compliance, alongside guest relations in a fast-paced environment.</p>
+      </div>
+      <div class="job">
+        <div class="job-head"><h3>Student Intern <span class="dot">•</span> Elite Technologies</h3><span class="when">2019</span></div>
+        <p>Two-month on-site internship in Hyderabad.</p>
+      </div>
+      <a class="btn btn-sm btn-purple-text" href="https://www.linkedin.com/in/thrishikha-jayasankar" target="_blank" rel="noopener">Full profile on LinkedIn →</a>
+    </div>
+    <div class="cta grid-bg-dark" id="contact">
+      <h2>LET'S BUILD SOMETHING DATA-DRIVEN TOGETHER.</h2>
+      <p>Open to Data Scientist &amp; Analyst roles in the UK — on-site, hybrid or remote.</p>
+      <a class="btn btn-white" href="mailto:thrishikhajayasankar@gmail.com">Get in touch →</a>
+      <a class="email-link" href="mailto:thrishikhajayasankar@gmail.com">thrishikhajayasankar@gmail.com</a>
+      <svg class="burst" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,2 58,30 86,14 70,40 98,50 70,60 86,86 58,70 50,98 42,70 14,86 30,60 2,50 30,40 14,14 42,30"/></svg>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="edu" id="education">
+    <div class="edu-card lime">
+      <span class="when">2024 – 2025</span>
+      <h3>MSc Data Science</h3>
+      <p>University of Bristol · School of Engineering Mathematics &amp; Technology</p>
+    </div>
+    <div class="edu-card pink">
+      <span class="when">2018 – 2022</span>
+      <h3>BE, Electrical, Electronics &amp; Communications</h3>
+      <p>Chennai Institute of Technology</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="foot">
+    <a href="#top" class="brand">&lt;/&gt; THRISHIKHA J</a>
+    <p>© 2026 Thrishikha Jayasankar. All rights reserved.</p>
+    <div class="socials small">
+      <a href="https://github.com/tangledmind01" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+      <a href="https://www.linkedin.com/in/thrishikha-jayasankar" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+      <a href="mailto:thrishikhajayasankar@gmail.com" aria-label="Email">@</a>
+    </div>
+  </footer>
+</div>
+
+<!-- PROJECT MODAL -->
+<dialog id="modal">
+  <button class="close sq" onclick="this.closest('dialog').close()" aria-label="Close">✕</button>
+  <div id="modal-body"></div>
+</dialog>
+
+<button class="to-top sq" id="toTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
